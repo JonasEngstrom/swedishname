@@ -1,0 +1,22 @@
+Package: swedishname
+Type: Package
+Title: Swedish Name
+Version: 1.0.0
+Author: Jonas Engström
+Maintainer: Jonas Engström <JonasEngstrom@users.noreply.github.com>
+Description: Generates a Swedish name using data on the one hundred most common female
+    first names, male first names, and last names in Sweden in 2020, according to
+    [Statistics Sweden](http://www.scb.se/be0001). The names are weighted by
+    frequency in the population. The package can be used to generate dummy names
+    for statistical examples and exercises.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10),
+    dplyr,
+    magrittr
+Imports:
+    dplyr,
+    magrittr
