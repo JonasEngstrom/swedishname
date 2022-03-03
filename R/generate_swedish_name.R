@@ -1,4 +1,4 @@
-#' Generate Swedish Names
+#' Generate Swedish Name
 #'
 #' Generates a Swedish name using data on the one hundred most common female
 #' first names, male first names, and last names in Sweden in 2020, according to

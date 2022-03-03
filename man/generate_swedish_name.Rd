@@ -2,7 +2,7 @@
 % Please edit documentation in R/generate_swedish_name.R
 \name{generate_swedish_name}
 \alias{generate_swedish_name}
-\title{Generate Swedish Names}
+\title{Generate Swedish Name}
 \usage{
 generate_swedish_name(sex = "b", return_separate_names = FALSE)
 }
