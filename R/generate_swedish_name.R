@@ -4,13 +4,13 @@
 #' first names, male first names, and last names in Sweden in 2020, according to
 #' [Statistics Sweden](http://www.scb.se/be0001). The names are weighted by
 #' frequency in the population. To generate a female name, set the `sex`
-#' parameter to `'f'`, to generate a male name set it to `'m'`, and to generate a
-#' name of either sex set it to `'b'`. Names can be returned as a character
+#' parameter to `f`, to generate a male name set it to `m`, and to generate a
+#' name of either sex set it to `b`. Names can be returned as a character
 #' string or as a list with a first name element and a last name element. This
 #' behavior is set by the `return_separate_names` parameter.
 #'
-#' @param sex Selects the desired sex for the generated name. Set to `'f'`, `'m'`,
-#'   or `'b'`. Defaults to `'b'`
+#' @param sex Selects the desired sex for the generated name. Set to `f`, `m`,
+#'   or `b`. Defaults to `b`
 #' @param return_separate_names Selects whether to return first and last names
 #'   separate in a list. Defaults to `FALSE`.
 #'
