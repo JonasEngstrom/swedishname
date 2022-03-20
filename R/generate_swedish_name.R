@@ -18,13 +18,16 @@
 #' @export
 #' @md
 #'
+#' @importFrom magrittr "%>%"
+#' @importFrom rlang .data
+#'
 #' @examples
 #' common_sounding_swedish_name <- generate_swedish_name()
 generate_swedish_name <- function(sex = 'b', return_separate_names = FALSE) {
   if (sex == 'b') {
     first_names <- female_first_names %>%
       dplyr::bind_rows(male_first_names) %>%
-      dplyr::mutate(weight = weight / 2)
+      dplyr::mutate(weight = .data$weight / 2)
   } else if (sex == 'f') {
     first_names <- female_first_names
   } else if (sex == 'm') {
